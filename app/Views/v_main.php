@@ -10,15 +10,15 @@
     <title>Sidebars · Bootstrap v5.3</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
     <script src="<?= base_url('assets/bootstrap/dist/js/color-modes.js') ?>"></script>
-    <link href="<?= base_url('assets/bootstrap/dist/css/bootstrap.min.css') ?>" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB">
-    <link rel="apple-touch-icon" href="<?= base_url('assets/bootstrap/dist/img/favicons/apple-touch-icon.png') ?>" sizes="180x180">
-    <link rel="icon" href="<?= base_url('assets/bootstrap/dist/img/favicons/favicon-32x32.png') ?>" sizes="32x32" type="image/png">
-    <link rel="icon" href="<?= base_url('assets/bootstrap/dist/img/favicons/favicon-16x16.png') ?>" sizes="16x16" type="image/png">
-    <link rel="manifest" href="<?= base_url('assets/bootstrap/dist/img/favicons/manifest.json') ?>">
-    <link rel="mask-icon" href="<?= base_url('assets/bootstrap/dist/img/favicons/safari-pinned-tab.svg') ?>" color="#712cf9">
-    <link rel="icon" href="<?= base_url('assets/bootstrap/dist/img/favicons/favicon.ico') ?>">
+    <link href="<?= base_url('assets/bootstrap/dist/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link rel="apple-touch-icon" href="<?= base_url('assets/favicons/apple-touch-icon.png') ?>" sizes="180x180">
+    <link rel="icon" href="<?= base_url('assets/favicons/favicon-32x32.png') ?>" sizes="32x32" type="image/png">
+    <link rel="icon" href="<?= base_url('assets/favicons/favicon-16x16.png') ?>" sizes="16x16" type="image/png">
+    <link rel="manifest" href="<?= base_url('assets/favicons/manifest.json') ?>">
+    <link rel="mask-icon" href="<?= base_url('assets/favicons/safari-pinned-tab.svg') ?>" color="#712cf9">
+    <link rel="icon" href="<?= base_url('assets/favicons/favicon.ico') ?>">
     <meta name="theme-color" content="#712cf9">
-    <link href="sidebars.css" rel="stylesheet">
+    <link href="<?= base_url('assets/bootstrap/dist/css/sidebars.css') ?>" rel="stylesheet">
     <style>
     .bd-placeholder-img {
         font-size: 1.125rem;
@@ -441,9 +441,8 @@
         </div>
         <div class="b-example-divider b-example-vr"></div>
     </main>
-    <script src="<?= base_url('assets/bootstrap/dist/js/bootstrap.bundle.min.js') ?>" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        class="astro-vvvwv3sm"></script>
-    <script src="sidebars.js" class="astro-vvvwv3sm"></script>
+    <script src="<?= base_url('assets/bootstrap/dist/js/bootstrap.bundle.min.js') ?>" class="astro-vvvwv3sm"></script>
+    <script src="<?= base_url('assets/bootstrap/dist/js/sidebars.js') ?>" class="astro-vvvwv3sm"></script>
 </body>
 
 </html>

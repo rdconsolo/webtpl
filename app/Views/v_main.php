@@ -188,6 +188,30 @@
             </ul>
         </div>
         <div class="b-example-divider b-example-vr"></div>
+        
+        <!-- Área de trabalho (conteúdo das páginas) -->
+        <div class="flex-grow-1 p-3">
+            <!-- Breadcrumb seguindo o exemplo do Bootstrap -->
+            <nav style="--bs-breadcrumb-divider: '>' ;" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?= base_url('/') ?>">Home</a></li>
+                    <li class="breadcrumb-item"><a href="<?= base_url('/pages') ?>">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Current</li>
+                </ol>
+            </nav>
+
+            <header class="mb-4">
+                <h2 class="h4">Área de Trabalho</h2>
+            </header>
+
+            <section id="workspace-content">
+                <!-- Conteúdo de cada página será exibido aqui. -->
+                <!-- Se você usa layouts do CodeIgniter, coloque o conteúdo nas views com: -->
+                <!-- <?= "<?= " ?> $this->section('content') ?> ... <?= "<?= " ?> $this->endSection() ?> -->
+                <?= $this->renderSection('content') ?>
+            </section>
+        </div>
+
     </main>
     <script src="<?= base_url('assets/bootstrap/dist/js/bootstrap.bundle.min.js') ?>" class="astro-vvvwv3sm"></script>
     <script src="<?= base_url('assets/bootstrap/dist/js/sidebars.js') ?>" class="astro-vvvwv3sm"></script>

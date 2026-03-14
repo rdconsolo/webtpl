@@ -5,10 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Astro v5.13.2">
-    <title>Sidebars · Bootstrap v5.3</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+    <title>Web Template v1.0</title>
     <script src="<?= base_url('assets/bootstrap/dist/js/color-modes.js') ?>"></script>
     <link href="<?= base_url('assets/bootstrap/dist/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link rel="apple-touch-icon" href="<?= base_url('assets/favicons/apple-touch-icon.png') ?>" sizes="180x180">
@@ -22,7 +19,8 @@
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 </head>
 
-<body> <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
         </symbol>
@@ -43,37 +41,50 @@
             </path>
         </symbol>
     </svg>
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"> <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"
-            type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)"> <svg class="bi my-1 theme-icon-active" aria-hidden="true">
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
+            aria-label="Toggle theme (auto)">
+            <svg class="bi my-1 theme-icon-active" aria-hidden="true">
                 <use href="#circle-half"></use>
-            </svg> <span class="visually-hidden" id="bd-theme-text">Toggle theme</span> </button>
+            </svg><span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+        </button>
         <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-            <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false"> <svg class="bi me-2 opacity-50"
-                        aria-hidden="true">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                    <svg class="bi me-2 opacity-50" aria-hidden="true">
                         <use href="#sun-fill"></use>
                     </svg>
                     Light
                     <svg class="bi ms-auto d-none" aria-hidden="true">
                         <use href="#check2"></use>
-                    </svg> </button> </li>
-            <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false"> <svg class="bi me-2 opacity-50"
-                        aria-hidden="true">
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                    <svg class="bi me-2 opacity-50" aria-hidden="true">
                         <use href="#moon-stars-fill"></use>
                     </svg>
                     Dark
                     <svg class="bi ms-auto d-none" aria-hidden="true">
                         <use href="#check2"></use>
-                    </svg> </button> </li>
-            <li> <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true"> <svg class="bi me-2 opacity-50"
-                        aria-hidden="true">
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                    <svg class="bi me-2 opacity-50" aria-hidden="true">
                         <use href="#circle-half"></use>
                     </svg>
                     Auto
                     <svg class="bi ms-auto d-none" aria-hidden="true">
                         <use href="#check2"></use>
-                    </svg> </button> </li>
+                    </svg>
+                </button>
+            </li>
         </ul>
-    </div> <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="bootstrap" viewBox="0 0 118 94">
             <title>Bootstrap</title>
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -110,12 +121,16 @@
     </svg>
     <main class="d-flex flex-nowrap">
         <h1 class="visually-hidden">Sidebars examples</h1>
-        <div class="flex-shrink-0 p-3" style="width: 280px;"> <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom"> <svg
-                    class="bi pe-none me-2" width="30" height="24" aria-hidden="true">
+        <div class="flex-shrink-0 p-3" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                <svg class="bi pe-none me-2" width="30" height="24" aria-hidden="true">
                     <use xlink:href="#bootstrap"></use>
-                </svg> <span class="fs-5 fw-semibold">Collapsible</span> </a>
+                </svg>
+                <span class="fs-5 fw-semibold">Web Template</span>
+            </a>
             <ul class="list-unstyled ps-0">
-                <li class="mb-1"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse"
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse"
                         aria-expanded="true">
                         Home
                     </button>
@@ -127,8 +142,9 @@
                         </ul>
                     </div>
                 </li>
-                <li class="mb-1"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#dashboard-collapse" aria-expanded="false">
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse"
+                        aria-expanded="false">
                         Dashboard
                     </button>
                     <div class="collapse" id="dashboard-collapse">
@@ -140,7 +156,8 @@
                         </ul>
                     </div>
                 </li>
-                <li class="mb-1"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse"
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse"
                         aria-expanded="false">
                         Orders
                     </button>
@@ -154,7 +171,8 @@
                     </div>
                 </li>
                 <li class="border-top my-3"></li>
-                <li class="mb-1"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse"
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse"
                         aria-expanded="false">
                         Account
                     </button>

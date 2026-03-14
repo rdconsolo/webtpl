@@ -188,11 +188,11 @@
             </ul>
         </div>
         <div class="b-example-divider b-example-vr"></div>
-        
+
         <!-- Área de trabalho (conteúdo das páginas) -->
         <div class="flex-grow-1 p-3">
             <!-- Breadcrumb seguindo o exemplo do Bootstrap -->
-            <nav style="--bs-breadcrumb-divider: '>' ;" aria-label="breadcrumb">
+            <nav style="--bs-breadcrumb-divider: '/' ;" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="<?= base_url('/') ?>">Home</a></li>
                     <li class="breadcrumb-item"><a href="<?= base_url('/pages') ?>">Pages</a></li>

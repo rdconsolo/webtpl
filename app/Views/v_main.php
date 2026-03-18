@@ -120,7 +120,6 @@
         </symbol>
     </svg>
     <main class="d-flex flex-nowrap">
-        <h1 class="visually-hidden">Sidebars examples</h1>
         <div class="flex-shrink-0 p-3" style="width: 280px;">
             <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
                 <svg class="bi pe-none me-2" width="30" height="24" aria-hidden="true">
@@ -187,7 +186,7 @@
                 </li>
             </ul>
         </div>
-        <div class="b-example-divider b-example-vr"></div>
+        <div class="b-default-divider b-default-vr"></div>
 
         <!-- Área de trabalho (conteúdo das páginas) -->
         <div class="flex-grow-1 p-3">
